@@ -1,0 +1,9 @@
+.project-card {
+  transition: transform 0.3s;
+}
+.project-card:hover {
+  transform: scale(1.05);
+}
+.project-image {
+  height: 250px;
+}

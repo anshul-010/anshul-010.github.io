@@ -1,0 +1,29 @@
+h1,
+h2 {
+  color: #2a2460;
+}
+.about-container {
+  padding: 25px;
+}
+h6, p{
+  text-align: left;
+}
+h1 {
+  font-size: 60px;
+}
+.bgi {
+  background-color: #f2f4f5;
+}
+.profile-image {
+  width: 50%;
+  border: 1px solid grey;
+}
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+  }
+  h3,
+  h6 {
+    margin-top: 10px;
+  }
+}

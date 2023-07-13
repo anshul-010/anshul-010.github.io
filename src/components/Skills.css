@@ -1,0 +1,41 @@
+.focus {
+  transition: transform 0.3s;
+  /* text-align: left; */
+}
+.skill-container{
+  border: 5px solid rgb(255, 174, 0);
+  background:linear-gradient(#afd9d5, #4dcec1) ;
+
+}
+.focus:hover {
+  transform: scale(1.05);
+}
+.card-title {
+  font-size: 2em;
+  font-weight: 700;
+}
+.text-dark{
+  text-align: left;
+  margin: auto;
+}
+
+.image-style {
+  width: 5em;
+}
+
+.font-details {
+  font-size: 3em;
+  font-weight: 500;
+  color: #231d5af8;
+  /* text-align: left; */
+}
+
+.font-details-b {
+  font-size: 3em;
+  font-weight: 500;
+  color: #2b0353;
+}
+.width-container {
+  width: 70%;
+  margin: 0 auto;
+}

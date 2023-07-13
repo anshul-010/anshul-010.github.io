@@ -1,0 +1,117 @@
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #2e2f2f;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(251, 238, 238, 0.959);
+  border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(208, 201, 209, 0.911);
+  border-radius: 12px;
+}
+
+.home-about-section{
+  /* background-color: blue; */
+  color: red;
+  /* background-color: rgba(0, 0, 0, 0.332); */
+  /* background-color: #afd9d5; */
+  background:linear-gradient(#4dcec1,#afd9d5) ;
+}
+.home-about-social-text{
+  margin-top: 5px;
+  /* margin-left: 23px; */
+}
+.home-about-social-links{
+  width: 150%;
+  margin:100px 0px 100px 0px ;
+  display: grid;
+  grid-template-columns: repeat(4,150px);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+
+}
+/* style={{margin:"100px 0px 100px 0px",display:"flex",gap:"20px",alignItems:"center",justifyContent:"center"}} */
+
+@media screen and (max-width: 800px) and (min-width: 300px) {
+  .home-about-social-links{
+    margin:100px 0px 100px 0px ;
+    display: grid;
+    grid-template-columns: repeat(2,140px);
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .stats-direction{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .live-btn div a:last-child{
+
+  }
+}
+
+
+.live-btn{
+  /* padding: 30px; */
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+ }
+.stats-direction{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.home-about-section {
+  position: relative;
+  padding-bottom: 70px !important;
+  /* padding-top: 70px !important; */
+}
+
+.home-about-description {
+  color: black  !important;
+  padding-top: 100px !important;
+  padding-bottom: 20px !important;
+  text-align: center;
+}
+
+.home-about-body {
+  padding-top: 50px;
+  font-size: 1.2em !important;
+  text-align: left;
+}
+.purple {
+  color:rgb(19, 11, 61);
+}
+
+.icon-colour {
+  color: #1d1b1b !important;
+}
+
+
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
