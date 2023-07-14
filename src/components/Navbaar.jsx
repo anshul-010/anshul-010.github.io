@@ -37,7 +37,7 @@ export const Navbaar = () => {
               <Nav.Link eventKey={2} href="#about" style={{color:"#454343",fontWeight:"bold",fontSize:"17px"}} >
                 About
               </Nav.Link>
-              <Nav.Link href="#skills" style={{color:"#454343",fontWeight:"bold",fontSize:"17px"}} >Skills</Nav.Link>
+              <Nav.Link href="#skills" className="nav-link.skills" style={{color:"#454343",fontWeight:"bold",fontSize:"17px"}} >Skills</Nav.Link>
               <Nav.Link href="#MyStats" style={{color:"#454343",fontWeight:"bold",fontSize:"17px"}} >My Stats</Nav.Link>
               <Nav.Link href="#projects" style={{color:"#454343",fontWeight:"bold",fontSize:"17px"}} >Projects</Nav.Link>
               <Nav.Link eventKey={2} href="#contact" style={{color:"#454343",fontWeight:"bold",fontSize:"17px"}} >
