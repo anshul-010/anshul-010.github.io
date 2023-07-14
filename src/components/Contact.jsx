@@ -7,7 +7,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 const Contact = () => {
   return (
     <div className="contact-container" style={{width:"100%"}}>
-      <Container >
+      <Container id="contact" >
         <Row>
           <Col>
             <h1 className="text-center font-details-b pb-4">Contact</h1>

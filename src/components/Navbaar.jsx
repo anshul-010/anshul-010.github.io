@@ -29,6 +29,7 @@ export const Navbaar = () => {
 
           <Navbar.Collapse id="responsive-navbar-nav">
           {/* <Hamburger toggled={isOpen} toggle={setOpen} /> */}
+          {/* helo */}
             <Nav className="me-auto"></Nav>
             <Nav  style={{ gap:"30px",alignItems:"center"}}>
              {/* <div style={{display:"flex",gap:"30px",alignItems:"center"}}> */}

@@ -11,7 +11,7 @@ import './home2.css';
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section"   >
+    <Container fluid className="home-about-section" id="about"  >
       <Container className="inner-C" >
         <Row>
           <Col md={8} className="home-about-description">
