@@ -16,7 +16,7 @@ export const Navbaar = () => {
         // bg="dark"
         variant="dark"
         fixed="top"
-        id="navbar"
+        id="nav-menu"
         className="animate-navbar nav-theme justify-content-between"
         style={{backgroundColor:"#c7c7c7",height:"4rem"}}
       >
