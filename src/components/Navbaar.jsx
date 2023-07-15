@@ -21,7 +21,7 @@ export const Navbaar = () => {
         style={{backgroundColor:"#c7c7c7",height:"4rem"}}
       >
         <Container>
-        <Nav.Link style={{display:"flex" ,alignItems:"center",justifyContent:"center", color:"#353232",fontSize:"25px",fontFamily:"-moz-initial"}} href="#about">
+        <Nav.Link id="user-detail-name" style={{display:"flex" ,alignItems:"center",justifyContent:"center", color:"#353232",fontSize:"25px",fontFamily:"-moz-initial"}} href="#about">
                 Anshul Kushwah
               </Nav.Link>
           

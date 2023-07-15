@@ -14,7 +14,7 @@ function Home2() {
     <Container fluid className="home-about-section " id="about"  >
       <Container className="inner-C" >
         <Row>
-          <Col md={8} className="home-about-description">
+          <Col md={8} className="home-about-description" id="user-detail-intro" >
             <h1 style={{ fontSize: "2.6em" }}>
               <span className="purple"> About </span> me
             </h1>
@@ -43,7 +43,7 @@ function Home2() {
           </Col>
           <Col style={{display:"flex",flexDirection:"column",paddingTop:"150px"}} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" style={{ borderRadius: "500px",width:"70%",marginTop:"50px",marginBottom:"30px",margin:"auto"}} />
+              <img src={myImg}  className="home-img" alt="avatar" style={{ borderRadius: "500px",width:"70%",marginTop:"50px",marginBottom:"30px",margin:"auto"}} />
             </Tilt>
             <Button  className="m-2"
               variant="success"

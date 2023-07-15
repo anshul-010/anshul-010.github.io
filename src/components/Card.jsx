@@ -6,12 +6,12 @@ const Card = ({ data }) => {
     <div className="col-md-6 my-4 text-dark project-card">
       <div className="card border shadow p-3 h-100">
         <img src={data.img} className="img-fluid border project-image" alt="" />
-        <h4 className="text-center my-2 font-weight-bold">{data.name}</h4>
-        <p className="px-2 text-center">{data.desc}</p>
+        <h4 className="text-center my-2 font-weight-bold project-title">{data.name}</h4>
+        <p className="px-2 text-center project-description">{data.desc}</p>
         <div className="live-btn">
           <div className="col-md-6">
             <a
-              className="btn btn-outline-dark  btn-sm"
+              className="btn btn-outline-dark  btn-sm project-deployed-link"
               href={data.demoLink}
               target="_blank"
               rel="noreferrer"
@@ -24,7 +24,7 @@ const Card = ({ data }) => {
             <a
              
 
-              className="btn btn-outline-dark  btn-sm github_btn"
+              className="btn btn-outline-dark  btn-sm github_btn project-github-link"
               href={data.codeLink}
               target="_blank"
               rel="noreferrer"

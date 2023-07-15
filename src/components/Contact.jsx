@@ -16,7 +16,7 @@ const Contact = () => {
               You can reach out to me at-
             </h5>
             <br />
-            <h5>
+            <h5 id="contact-email" >
               <a href="mailto:kushwahasg4450@gmail.com" className="contact-me">
                 <span>
                   {" "}
@@ -26,7 +26,7 @@ const Contact = () => {
               </a>
             </h5>
 
-            <h5>
+            <h5 id="contact-phone" >
               <a href="tel:7906192050" className="contact-me">
                 <span>
                   {" "}
@@ -37,7 +37,7 @@ const Contact = () => {
             </h5>
           </Col>
           <div className="home-about-social-links" style={{margin:"5px auto",width:"80%",display:"flex",justifyContent:"space-evenly"}} >
-              <div className="social-icons">
+              <div className="social-icons" id="contact-github" >
                 <a
                   href="https://github.com/anshul-010"
                   target="_blank"
@@ -61,7 +61,7 @@ const Contact = () => {
                 <p className="home-about-social-text">facebook</p>
               </div> */}
            
-              <div className="social-icons">
+              <div className="social-icons" id="contact-linkedin" >
                 <a
                   href="https://www.linkedin.com/in/anshul-kushwah-0245021b8/"
                   target="_blank"
