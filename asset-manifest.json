@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.e735a6f3.css",
-    "main.js": "/static/js/main.662fa452.js",
+    "main.js": "/static/js/main.0a41e660.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/slide4.jpg": "/static/media/slide4.afe35beae57e02f9ddfd.jpg",
     "static/media/slide1.jpg": "/static/media/slide1.bce0e13283b959fbd233.jpg",
     "static/media/slide3.jpg": "/static/media/slide3.e6df4d3c8e6596af72d0.jpg",
     "static/media/slide5.jpg": "/static/media/slide5.3917bf8c30f22f7e74fc.jpg",
     "static/media/slide6.jpg": "/static/media/slide6.95c4826263384d728336.jpg",
-    "static/media/HelthoCart.png": "/static/media/HelthoCart.2d99481480c2b508baaf.png",
-    "static/media/HolaEx.png": "/static/media/HolaEx.799bb356eecd8d9dd620.png",
-    "static/media/Trendz.png": "/static/media/Trendz.dcd37a16992722422aea.png",
+    "static/media/TredersProject.png": "/static/media/TredersProject.5878106975f57b71bc83.png",
+    "static/media/healthMartProject.png": "/static/media/healthMartProject.e6cdff766a521634572b.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/TrendzyProject.png": "/static/media/TrendzyProject.e8bb197648566ab56bfb.png",
     "static/media/Anshul_kushwah_Resume.pdf": "/static/media/Anshul_kushwah_Resume.ada27b699ae269dbe8d1.pdf",
     "static/media/My_Pic_1.png": "/static/media/My_Pic_1.014aac4193232647869b.png",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -36,11 +36,11 @@
     "static/media/material-ui-1.svg": "/static/media/material-ui-1.fd510ed8518b192069590b04e2e6348a.svg",
     "static/media/vercel.svg": "/static/media/vercel.c7601497a42f8804800988599277e84f.svg",
     "main.e735a6f3.css.map": "/static/css/main.e735a6f3.css.map",
-    "main.662fa452.js.map": "/static/js/main.662fa452.js.map",
+    "main.0a41e660.js.map": "/static/js/main.0a41e660.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e735a6f3.css",
-    "static/js/main.662fa452.js"
+    "static/js/main.0a41e660.js"
   ]
 }
