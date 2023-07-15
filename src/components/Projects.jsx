@@ -1,18 +1,18 @@
 import React from "react";
 import { Card } from "./Card";
-import Trendz from "../assets/img/projects/Trendz.png";
-import HolaEx from "../assets/img/projects/HolaEx.png";
-import HelthoCart from "../assets/img/projects/HelthoCart.png";
+import Trendzy from "../assets/img/projects/TrendzyProject.png";
+import Treders from "../assets/img/projects/TredersProject.png";
+import HealthMart from "../assets/img/projects/healthMartProject.png";
 import "./Project.css";
 export const Projects = () => {
   const project = {
     data: [
       {
-        name: "Trendz",
-        desc: "Clone of Koovs.com which is a Fashion based E-commerce Platform",
-        img: Trendz,
-        demoLink: "https://wondrous-gnome-4959fa.netlify.app/",
-        codeLink: "https://github.com/lovkumar120169/pink-purpose-5182",
+        name: "Trendzy",
+        desc: "Clone of meesho.com which is a Fashion based E-commerce Platform",
+        img: Trendzy,
+        demoLink: "https://ephemeral-parfait-eda1a8.netlify.app/index.html",
+        codeLink: "https://github.com/anshul-010/Trendzy-201",
         techstack: [
           "/icons/html-5.svg",
           "/icons/css-3.svg",
@@ -23,11 +23,11 @@ export const Projects = () => {
         ],
       },
       {
-        name: "HelthO Cart",
-        desc: "Clone of Helth Kart.com which is an E-commerce website delivering Healthy Products & Supplements",
-        img: HelthoCart,
-        demoLink: "https://glowing-paletas-0e922db.netlify.app/",
-        codeLink: "https://github.com/lovkumar120169/gamy-rate-5438",
+        name: "Health Mart",
+        desc: "Clone of HealthKart.com which is an E-commerce website delivering Healthy Products & Supplements",
+        img: HealthMart,
+        demoLink: "https://peaceful-blancmange-43db0c.netlify.app/",
+        codeLink: "https://github.com/Vikas6865/fond-channel-7524",
         techstack: [
           "/icons/react.svg",
           "/icons/css-3.svg",
@@ -38,11 +38,11 @@ export const Projects = () => {
         ],
       },
       {
-        name: "Hola-Ex",
-        desc: "Clone of Olx.com which is an E-commerce Platform delivering Used Products Platform delivering Used Products",
-        img: HolaEx,
-        demoLink: "https://verdant-valkyrie-b3f6d0.netlify.app/",
-        codeLink: "https://github.com/asadayyubi/absorbed-porter-6072",
+        name: "Treders",
+        desc: "Provides users with real-time cryptocurrency data updates and features such as graphical representation and activity dashboard.",
+        img: Treders,
+        demoLink: "https://649014389ea33240bcd1a645--frolicking-zuccutto-c2efd2.netlify.app/",
+        codeLink: "https://github.com/anshul-010/gamy-lace-3375/tree/main/my-app",
         techstack: [
           "/icons/react.svg",
           "/icons/css-3.svg",

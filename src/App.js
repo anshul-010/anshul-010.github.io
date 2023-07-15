@@ -10,7 +10,7 @@ import { Title } from "./components/title-message/title-message.component";
 import { Footer } from "./components/footer/Footer";
 import Home2 from './components/Home/Home2';
 import MyStats from './components/MyStats';
-import { BrowserRouter } from 'react-router-dom';
+// import { BrowserRouter } from 'react-router-dom';
 import { ChakraProvider } from '@chakra-ui/react';
 
 
@@ -29,7 +29,7 @@ function App() {
       <MyStats/>
       {/* </BrowserRouter> */}
       </ChakraProvider>
-      {/* <Projects /> */}
+      <Projects />
       <Contact/>
       <Footer />
     </div>

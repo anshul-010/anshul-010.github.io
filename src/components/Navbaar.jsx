@@ -33,20 +33,20 @@ export const Navbaar = () => {
             <Nav className="me-auto"></Nav>
             <Nav  style={{ gap:"30px",alignItems:"center"}}>
              {/* <div style={{display:"flex",gap:"30px",alignItems:"center"}}> */}
-             <Nav.Link href="#home" style={{color:"#454343",fontWeight:"bold",fontSize:"17px"}} >Home</Nav.Link>
-              <Nav.Link eventKey={2} href="#about" style={{color:"#454343",fontWeight:"bold",fontSize:"17px"}} >
+             <Nav.Link href="#home" className="nav-link home" style={{color:"#454343",fontWeight:"bold",fontSize:"17px"}} >Home</Nav.Link>
+              <Nav.Link eventKey={2} href="#about" className="nav-link about" style={{color:"#454343",fontWeight:"bold",fontSize:"17px"}} >
                 About
               </Nav.Link>
-              <Nav.Link href="#skills" className="nav-link.skills" style={{color:"#454343",fontWeight:"bold",fontSize:"17px"}} >Skills</Nav.Link>
+              <Nav.Link href="#skills" className="nav-link skills" style={{color:"#454343",fontWeight:"bold",fontSize:"17px"}} >Skills</Nav.Link>
               <Nav.Link href="#MyStats" style={{color:"#454343",fontWeight:"bold",fontSize:"17px"}} >My Stats</Nav.Link>
-              <Nav.Link href="#projects" style={{color:"#454343",fontWeight:"bold",fontSize:"17px"}} >Projects</Nav.Link>
-              <Nav.Link eventKey={2} href="#contact" style={{color:"#454343",fontWeight:"bold",fontSize:"17px"}} >
+              <Nav.Link href="#projects" className="nav-link projects" style={{color:"#454343",fontWeight:"bold",fontSize:"17px"}} >Projects</Nav.Link>
+              <Nav.Link eventKey={2} href="#contact" className="nav-link contact" style={{color:"#454343",fontWeight:"bold",fontSize:"17px"}} >
                 Contact
               </Nav.Link>
               <Navbar.Brand>
             {/* Resume */}
             <Button
-              className="m-2"
+              className="nav-link resume" //m-2
               variant="success"
               href={resume}
               target="_blank"
