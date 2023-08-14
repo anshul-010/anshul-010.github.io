@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e735a6f3.css",
-    "main.js": "/static/js/main.82f6ff3d.js",
+    "main.css": "/static/css/main.1528b192.css",
+    "main.js": "/static/js/main.29a24bfe.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/slide4.jpg": "/static/media/slide4.afe35beae57e02f9ddfd.jpg",
     "static/media/slide1.jpg": "/static/media/slide1.bce0e13283b959fbd233.jpg",
@@ -16,6 +16,7 @@
     "static/media/My_Pic_1.png": "/static/media/My_Pic_1.014aac4193232647869b.png",
     "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/creditFolio.png": "/static/media/creditFolio.7827263085cf6379f34b.png",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/slide2.jpg": "/static/media/slide2.8e8072ffd35b1e1031c9.jpg",
@@ -35,12 +36,12 @@
     "static/media/git-icon.svg": "/static/media/git-icon.c60b7e5ae8ec2562f23fdddcab300026.svg",
     "static/media/material-ui-1.svg": "/static/media/material-ui-1.fd510ed8518b192069590b04e2e6348a.svg",
     "static/media/vercel.svg": "/static/media/vercel.c7601497a42f8804800988599277e84f.svg",
-    "main.e735a6f3.css.map": "/static/css/main.e735a6f3.css.map",
-    "main.82f6ff3d.js.map": "/static/js/main.82f6ff3d.js.map",
+    "main.1528b192.css.map": "/static/css/main.1528b192.css.map",
+    "main.29a24bfe.js.map": "/static/js/main.29a24bfe.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e735a6f3.css",
-    "static/js/main.82f6ff3d.js"
+    "static/css/main.1528b192.css",
+    "static/js/main.29a24bfe.js"
   ]
 }
