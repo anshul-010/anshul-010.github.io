@@ -21,9 +21,10 @@ export const Navbaar = () => {
         style={{backgroundColor:"#c7c7c7",height:"4rem"}}
       >
         <Container>
+          {/* links */}
         <Nav.Link id="user-detail-name" style={{display:"flex" ,alignItems:"center",justifyContent:"center", color:"#353232",fontSize:"25px",fontFamily:"-moz-initial"}} href="#about">
                 Anshul Kushwah
-              </Nav.Link>
+        </Nav.Link>
           
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
@@ -47,6 +48,7 @@ export const Navbaar = () => {
             {/* Resume */}
             <Button
               className="nav-link resume" //m-2
+              id="resume-button-1"
               variant="success"
               href={resume}
               target="_blank"

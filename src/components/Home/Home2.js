@@ -11,8 +11,8 @@ import './home2.css';
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section " id="about"  >
-      <Container className="inner-C" >
+    <Container fluid style={{backgroundColor:"#F0EFEF"}} >
+      <Container className="about section" id="about" style={{backgroundColor:"#F0EFEF"}} >
         <Row>
           <Col md={8} className="home-about-description" id="user-detail-intro" >
             <h1 style={{ fontSize: "2.6em" }}>
@@ -46,6 +46,7 @@ function Home2() {
               <img src={myImg}  className="home-img" alt="avatar" style={{ borderRadius: "500px",width:"70%",marginTop:"50px",marginBottom:"30px",margin:"auto"}} />
             </Tilt>
             <Button  className="m-2"
+              id="resume-button-2"
               variant="success"
               href={resume}
               target="_blank" style={{display:"flex",alignItems:"center",justifyContent:"center",border:"none",padding:"10px",color:"white",backgroundColor:"#292738",borderRadius:"5px",boxShadow:"rgba(0, 0, 0, 0.24) 0px 3px 8px"}}><CgFileDocument style={{marginBottom:"3px",marginRight:"5px"}}/>

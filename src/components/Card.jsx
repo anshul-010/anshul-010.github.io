@@ -22,8 +22,6 @@ const Card = ({ data }) => {
           {/* style={{marginLeft:"170px"}} */}
           <div className="col-md-6">
             <a
-             
-
               className="btn btn-outline-dark  btn-sm github_btn project-github-link"
               href={data.codeLink}
               target="_blank"

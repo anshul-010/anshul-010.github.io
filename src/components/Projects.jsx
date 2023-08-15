@@ -3,6 +3,7 @@ import { Card } from "./Card";
 import Trendzy from "../assets/img/projects/TrendzyProject.png";
 import Treders from "../assets/img/projects/TredersProject.png";
 import HealthMart from "../assets/img/projects/healthMartProject.png";
+import CreditFolio from "../assets/img/projects/creditFolio.png"
 import "./Project.css";
 export const Projects = () => {
   const project = {
@@ -43,6 +44,23 @@ export const Projects = () => {
         img: Treders,
         demoLink: "https://649014389ea33240bcd1a645--frolicking-zuccutto-c2efd2.netlify.app/",
         codeLink: "https://github.com/anshul-010/gamy-lace-3375/tree/main/my-app",
+        techstack: [
+          "/icons/react.svg",
+          "/icons/css-3.svg",
+          "/icons/javascript.svg",
+          "/icons/npm.svg",
+          "/icons/mongodb.svg",
+          "/icons/bootstrap.svg",
+          "/icons/nodejs-icon.svg",
+          "/icons/express.svg",
+        ],
+      },
+      {
+        name: "Credit Folio",
+        desc: "The CREDIT-FOLIO React App is a modern web application designed to manage credit scores and related data.",
+        img: CreditFolio,
+        demoLink: "https://creditfolio.netlify.app/",
+        codeLink: "https://github.com/anshul-010/quixotic-snail-9802",
         techstack: [
           "/icons/react.svg",
           "/icons/css-3.svg",

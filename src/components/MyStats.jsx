@@ -8,7 +8,7 @@ import { Tooltip } from "react-bootstrap";
 
 const MyStats = () => {
   return (
-    <Box p={6} pt={50} pb={50} id="MyStats" border={"2px solid brown"} bg={"linear-gradient( #4dcec1,#afd9d5)"}>
+    <Box p={6} pt={50} pb={50} id="MyStats" border={"2px solid brown"} bg={"#F0EFEF"}>
       <Stack spacing={8}>
         {/* Title */}
         <Text className="text-center font-details-b pb-4" >

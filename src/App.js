@@ -25,9 +25,7 @@ function App() {
       <Home2/>
       <Skills />
       <ChakraProvider>
-      {/* <BrowserRouter> */}
       <MyStats/>
-      {/* </BrowserRouter> */}
       </ChakraProvider>
       <Projects />
       <Contact/>
