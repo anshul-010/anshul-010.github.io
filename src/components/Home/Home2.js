@@ -10,13 +10,24 @@ import './home2.css';
 
 
 function Home2() {
+
+  const handleDownload = () => {
+    // Create a temporary <a> element to trigger the download
+    const link = document.createElement('a');
+    link.href = resume
+    link.download = resume 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
-    <Container fluid style={{backgroundColor:"#F0EFEF"}} >
-      <Container className="about section" id="about" style={{backgroundColor:"#F0EFEF"}} >
+    <Container fluid style={{backgroundColor:"#f9f9f9"}} >
+      <Container className="about section" id="about" style={{backgroundColor:"#f9f9f9"}} >
         <Row>
           <Col md={8} className="home-about-description" id="user-detail-intro" >
-            <h1 style={{ fontSize: "2.6em" }}>
-              <span className="purple"> About </span> me
+            <h1 style={{ fontSize: "2.6em",color:"#323232" }}>
+              <span className="purple" style={{color:"#323232"}}> About </span> me
             </h1>
             <p className="home-about-body">
               As a Full Stack Web Developer, I have a sharp eye for design and a strong passion for crafting immersive user experiences.
@@ -49,6 +60,7 @@ function Home2() {
               id="resume-button-2"
               variant="success"
               href={resume}
+              onClick={handleDownload}
               target="_blank" style={{display:"flex",alignItems:"center",justifyContent:"center",border:"none",padding:"10px",color:"white",backgroundColor:"#292738",borderRadius:"5px",boxShadow:"rgba(0, 0, 0, 0.24) 0px 3px 8px"}}><CgFileDocument style={{marginBottom:"3px",marginRight:"5px"}}/>
               Resume</Button>
             

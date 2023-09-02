@@ -4,13 +4,14 @@
 }
 #skills{
   margin-top: 2%;
-  border: 5px solid rgb(255, 174, 0);
+  /* border: 5px solid rgb(255, 174, 0); */
   /* background:linear-gradient(#afd9d5, #4dcec1) ; */
-  background-color: #F0EFEF;
+  background-color: #f9f9f9;
 
 }
 .focus:hover {
   transform: scale(1.05);
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
 }
 .card-title {
   font-size: 2em;

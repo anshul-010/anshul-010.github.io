@@ -8,10 +8,10 @@ import { Tooltip } from "react-bootstrap";
 
 const MyStats = () => {
   return (
-    <Box p={6} pt={50} pb={50} id="MyStats" border={"2px solid brown"} bg={"#F0EFEF"}>
+    <Box p={6} pt={50} pb={50} id="MyStats"  bg={"#f9f9f9"}>
       <Stack spacing={8}>
         {/* Title */}
-        <Text className="text-center font-details-b pb-4" >
+        <Text className="text-center font-details-b pb-4" style={{color:"#323232"}} >
           My Github Stats
         </Text>
         Calender

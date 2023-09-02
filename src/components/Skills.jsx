@@ -129,7 +129,7 @@ const Skills = () => {
   return (
     <div id="skills">
       <div className="pt-3 pb-3 width-container skills-card"  >
-        <h1 className="text-center font-details-b pb-4">TECH SKILLS</h1>
+        <h1 className="text-center font-details-b pb-4" style={{color:"#323232"}}>TECH SKILLS</h1>
         {/* <CardDeck> */}
         <Row className="d-flex justify-content-around">
           {/* Frontend */}
@@ -137,11 +137,11 @@ const Skills = () => {
             <Card className="focus mt-2 mb-2">
               <Card.Body>
                 {/* Frontend */}
-                <Card.Title className="text-center  card-title">
+                <Card.Title className="text-center  skills-card-name">
                   Frontend
                 </Card.Title>
                 <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
+                <Card.Text className="card-text d-flex justify-content-start flex-column skills-card-img">
                   {skills.frontend.map((skill, index) => (
                     <span className="p-2" style={{margin:"auto"}} key={index}>
                       <a

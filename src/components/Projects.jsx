@@ -77,7 +77,7 @@ export const Projects = () => {
   return (
     <div className="project-container">
       <div id="projects" className="container width">
-        <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
+        <h1 className="pt-3 text-center font-details-b pb-3" style={{color:"#323232"}} >PROJECTS</h1>
         <div className="row">
           {project.data.map((elem, index) => {
             return <Card key={index} data={elem} />;

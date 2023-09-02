@@ -7,7 +7,16 @@ import { CgFileDocument } from "react-icons/cg";
 
 export const Navbaar = () => {
 
-  // const [isOpen, setOpen] = useState(false)
+  const handleDownload = () => {
+    // Create a temporary <a> element to trigger the download
+    const link = document.createElement('a');
+    link.href = resume
+    link.download = resume 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="navbar-container">
       <Navbar
@@ -18,7 +27,9 @@ export const Navbaar = () => {
         fixed="top"
         id="nav-menu"
         className="animate-navbar nav-theme justify-content-between"
-        style={{backgroundColor:"#c7c7c7",height:"4rem"}}
+        style={{backgroundColor:"#e6e6e6",height:"4rem",boxShadow:"rgba(85, 83, 83, 0.429) 0px 5px 10px"}}
+        // box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
       >
         <Container>
           {/* links */}
@@ -29,7 +40,6 @@ export const Navbaar = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
           <Navbar.Collapse id="responsive-navbar-nav">
-          {/* <Hamburger toggled={isOpen} toggle={setOpen} /> */}
           {/* helo */}
             <Nav className="me-auto"></Nav>
             <Nav  style={{ gap:"30px",alignItems:"center"}}>
@@ -51,6 +61,7 @@ export const Navbaar = () => {
               id="resume-button-1"
               variant="success"
               href={resume}
+              onClick={handleDownload}
               target="_blank"
               style={{display:"flex",alignItems:"center",justifyContent:"center",backgroundColor:"#d6e9e9",color:"#454343"}}
             >

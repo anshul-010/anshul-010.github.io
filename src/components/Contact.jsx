@@ -10,7 +10,7 @@ const Contact = () => {
       <Container id="contact" >
         <Row>
           <Col>
-            <h1 className="text-center font-details-b pb-4">Contact</h1>
+            <h1 className="text-center font-details-b pb-4" style={{color:"#323232"}}>Contact</h1>
             <h5 style={{marginTop:"50px"}}>
               Liked my work? Want to get in touch? <br />
               You can reach out to me at-

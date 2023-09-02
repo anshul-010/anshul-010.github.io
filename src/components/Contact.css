@@ -15,9 +15,9 @@
   color: black;
 }
 .contact-container {
-  border: 4px solid rgb(255, 238, 0);
-  background-color: #afd9d5;
-  background:linear-gradient( #4dcec1,#afd9d5) ;
+  /* border: 4px solid rgb(255, 238, 0); */
+  background-color: #f9f9f9;
+  /* background:linear-gradient( #4dcec1,#afd9d5) ; */
 
   padding: 40px;
 }
