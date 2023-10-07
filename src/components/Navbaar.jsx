@@ -8,7 +8,6 @@ import { CgFileDocument } from "react-icons/cg";
 export const Navbaar = () => {
 
   const handleDownload = () => {
-    // Create a temporary <a> element to trigger the download
     const link = document.createElement('a');
     link.href = "Anshul-kushwah-Resume.pdf"
     link.download = "Anshul-kushwah-Resume.pdf"
@@ -70,7 +69,6 @@ export const Navbaar = () => {
               
             </Button>
           </Navbar.Brand>
-             {/* </div> */}
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -78,3 +76,5 @@ export const Navbaar = () => {
     </div>
   );
 };
+
+//
