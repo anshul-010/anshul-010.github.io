@@ -1,7 +1,7 @@
 import { Navbar, Container, Nav } from "react-bootstrap";
 import "font-awesome/css/font-awesome.min.css";
 import { Button } from "react-bootstrap";
-import resume from "../assets/files/Anshul_kushwah_Resume.pdf";
+import resume from "../assets/files/Anshul-kushwah-Resume.pdf";
 import {RxSlash,RxChevronLeft,RxChevronRight} from "react-icons/rx";
 import { CgFileDocument } from "react-icons/cg";
 
@@ -10,8 +10,8 @@ export const Navbaar = () => {
   const handleDownload = () => {
     // Create a temporary <a> element to trigger the download
     const link = document.createElement('a');
-    link.href = resume
-    link.download = resume 
+    link.href = "Anshul-kushwah-Resume.pdf"
+    link.download = "Anshul-kushwah-Resume.pdf"
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -60,7 +60,7 @@ export const Navbaar = () => {
               className="nav-link resume" //m-2
               id="resume-button-1"
               variant="success"
-              href={resume}
+              // href={resume}
               onClick={handleDownload}
               target="_blank"
               style={{display:"flex",alignItems:"center",justifyContent:"center",backgroundColor:"#d6e9e9",color:"#454343"}}

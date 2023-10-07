@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import myImg from "../../assets/img/profile/My_Pic_1.png";
-import resume from "../../assets/files/Anshul_kushwah_Resume.pdf";
+import resume from "../../assets/files/Anshul-kushwah-Resume.pdf";
 import Tilt from "react-parallax-tilt";
 import { CgFileDocument } from "react-icons/cg";
 import './home2.css';
@@ -13,12 +13,13 @@ function Home2() {
 
   const handleDownload = () => {
     // Create a temporary <a> element to trigger the download
-    const link = document.createElement('a');
-    link.href = resume
-    link.download = resume 
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    // const link = document.createElement('a');
+    // link.href = resume
+    // link.download = resume 
+    // document.body.appendChild(link);
+    // link.click();
+    // document.body.removeChild(link);
+      
   };
 
   return (
@@ -59,8 +60,8 @@ function Home2() {
             <Button  className="m-2"
               id="resume-button-2"
               variant="success"
-              href={resume}
-              onClick={handleDownload}
+              href={"Anshul-kushwah-Resume.pdf"}
+              // onClick={handleDownload}
               target="_blank" style={{display:"flex",alignItems:"center",justifyContent:"center",border:"none",padding:"10px",color:"white",backgroundColor:"#292738",borderRadius:"5px",boxShadow:"rgba(0, 0, 0, 0.24) 0px 3px 8px"}}><CgFileDocument style={{marginBottom:"3px",marginRight:"5px"}}/>
               Resume</Button>
             
@@ -71,3 +72,5 @@ function Home2() {
   );
 }
 export default Home2;
+
+
