@@ -27,8 +27,6 @@ export const Navbaar = () => {
         id="nav-menu"
         className="animate-navbar nav-theme justify-content-between"
         style={{backgroundColor:"#e6e6e6",height:"4rem",boxShadow:"rgba(85, 83, 83, 0.429) 0px 5px 10px"}}
-        // box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
       >
         <Container>
           {/* links */}
@@ -42,7 +40,6 @@ export const Navbaar = () => {
           {/* helo */}
             <Nav className="me-auto"></Nav>
             <Nav  style={{ gap:"30px",alignItems:"center"}}>
-             {/* <div style={{display:"flex",gap:"30px",alignItems:"center"}}> */}
              <Nav.Link href="#home" className="nav-link home" style={{color:"#454343",fontWeight:"bold",fontSize:"17px"}} >Home</Nav.Link>
               <Nav.Link eventKey={2} href="#about" className="nav-link about" style={{color:"#454343",fontWeight:"bold",fontSize:"17px"}} >
                 About

@@ -195,7 +195,7 @@ const Skills = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-
+              {/* div */}
             {/* Hosting Platforms */}
             <Card className="focus mt-5 mb-2 ">
               <Card.Body>
