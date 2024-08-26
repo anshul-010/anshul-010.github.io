@@ -1,21 +1,37 @@
 import { Navbar, Container, Nav } from "react-bootstrap";
 import "font-awesome/css/font-awesome.min.css";
 import { Button } from "react-bootstrap";
-import resume from "../assets/files/Anshul-kushwah-Resume.pdf";
+// import resume from "../../public/Anshul-kushwah-Resume.pdf";
 import {RxSlash,RxChevronLeft,RxChevronRight} from "react-icons/rx";
 import { CgFileDocument } from "react-icons/cg";
 
 export const Navbaar = () => {
 
   const handleDownload = () => {
-    const link = document.createElement('a');
-    link.href = "Anshul-kushwah-Resume.pdf"
-    link.download = "Anshul-kushwah-Resume.pdf"
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
+    // const link = document.createElement('a');
+    // link.href = process.env.PUBLIC_URL + "/Anshul-kushwah-Resume.pdf";
+    // link.download = "Anshul-kushwah-Resume.pdf";
+    // document.body.appendChild(link);
+    // link.click();
+    // document.body.removeChild(link);
 
+    window.open(
+      "https://drive.google.com/file/d/1A4NNMgdH0JcilfUBcnnfunApNOFBzhdy/view?usp=drive_link",
+      "_blank"
+    );
+
+    setTimeout(() => {
+      const link = document.createElement("a");
+      link.href =
+        "https://drive.google.com/uc?export=download&id=1A4NNMgdH0JcilfUBcnnfunApNOFBzhdy";
+      link.download =
+        "https://drive.google.com/file/d/1A4NNMgdH0JcilfUBcnnfunApNOFBzhdy/view?usp=drive_link"; // Set the desired file name here
+      link.style.display = "none";
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }, 50);
+  };
   return (
     <div className="navbar-container">
       <Navbar
@@ -56,7 +72,7 @@ export const Navbaar = () => {
               className="nav-link resume" //m-2
               id="resume-button-1"
               variant="success"
-              // href={resume}
+              href={"Anshul-kushwah-Resume.pdf"}
               onClick={handleDownload}
               target="_blank"
               style={{display:"flex",alignItems:"center",justifyContent:"center",backgroundColor:"#d6e9e9",color:"#454343"}}

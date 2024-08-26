@@ -60,7 +60,7 @@ function Home2() {
             <Button  className="m-2"
               id="resume-button-2"
               variant="success"
-              href={"Anshul-kushwah-Resume.pdf"}
+              href={resume}
               // onClick={handleDownload}
               target="_blank" style={{display:"flex",alignItems:"center",justifyContent:"center",border:"none",padding:"10px",color:"white",backgroundColor:"#292738",borderRadius:"5px",boxShadow:"rgba(0, 0, 0, 0.24) 0px 3px 8px"}}><CgFileDocument style={{marginBottom:"3px",marginRight:"5px"}}/>
               Resume</Button>

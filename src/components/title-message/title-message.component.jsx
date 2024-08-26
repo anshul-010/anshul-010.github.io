@@ -28,8 +28,6 @@ export const Title = () => {
               textStyle={{
                 fontFamily: "Red Hat Display",
                 color: "#000000",
-                // fontSize: "3vw",
-                // fontSize{base:"13vh",md:"8vh",lg:"13vh"}
               }}
               // className="vh-3"
               startDelay={100}
@@ -43,7 +41,6 @@ export const Title = () => {
               textStyle={{
                 fontFamily: "Red Hat Display",
                 color: "#000000",
-                // fontSize: "5vw",
               }}
               startDelay={1000}
               cursorColor="blue"
@@ -58,7 +55,6 @@ export const Title = () => {
               fontFamily: "Red Hat Display",
               color: "#000000",
               fontWeight: 500,
-              // fontSize: "3vw",
             }}
             startDelay={2000}
             cursorColor="#3F3D56"
@@ -69,19 +65,7 @@ export const Title = () => {
             autoStart="true"
             deleteSpeed={50}
           />
-          {/* <Typewriter
-            options={{
-              strings: [
-                "Front-end Developer",
-                "MERN Stack Developer",
-                "Full Stack Web Developer",
-              ],
-              autoStart: true,
-              loop: true,
-              deleteSpeed: 50,
-            }}
-          /> */}
-
+          
         </div>
 
 
